@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main  # Se activa cuando hagas push a main
+      - master  # Se activa cuando hagas push a main
 
 jobs:
   build-deploy:
